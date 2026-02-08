@@ -53,7 +53,12 @@ ranking TOP 10% =75%
 
 These results demonstrate strong discrimination ability and effective pathogenic variant prioritization.
 
-🧬 Dataset Construction
+
+
+![modality score feature importance](https://github.com/user-attachments/assets/d835d6d4-90c7-461f-b913-3ca3ebcad23c)
+---
+
+## 🧬 Dataset Construction
 
 The dataset was built from scratch to ensure high quality and prevent information leakage.
 
@@ -112,8 +117,6 @@ Ablation experiments were conducted to evaluate contribution of each component.
 
 Configuration	ROC-AUC
 Full model	0.91
-
-![modality score feature importance](https://github.com/user-attachments/assets/d835d6d4-90c7-461f-b913-3ca3ebcad23c)
 ![ablation studies](https://github.com/user-attachments/assets/a6a7fb8f-0b9c-4a51-82a9-90a767910de5)
 ![shap](https://github.com/user-attachments/assets/67080ca5-3a43-422b-aa50-180584ba1bd3)
 
